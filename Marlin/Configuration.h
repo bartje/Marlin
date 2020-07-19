@@ -987,7 +987,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -36.8, -12, -1.66 }    //witje ender3
+#define NOZZLE_TO_PROBE_OFFSET { -36.8, -12, -1.48 }    //witje ender3
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
