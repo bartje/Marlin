@@ -628,9 +628,9 @@
 
 //#define SENSORLESS_BACKOFF_MM  { 2, 2 }     // (mm) Backoff from endstops before sensorless homing
 
-#define X_HOME_BUMP_MM 5  //temp witje
-#define Y_HOME_BUMP_MM 5  //temp witje
-#define Z_HOME_BUMP_MM 2  //temp witje
+//#define X_HOME_BUMP_MM 5  //temp witje
+//#define Y_HOME_BUMP_MM 5  //temp witje
+//#define Z_HOME_BUMP_MM 2  //temp witje
 #define HOMING_BUMP_MM      { 5, 5, 2 }       // (mm) Backoff from endstops after first bump
 #define HOMING_BUMP_DIVISOR { 2, 2, 4 }       // Re-Bump Speed Divisor (Divides the Homing Feedrate)
 
@@ -1598,7 +1598,7 @@
  *
  * See https://marlinfw.org/docs/features/lin_advance.html for full instructions.
  */
-#define LIN_ADVANCE   //witje ender
+//#define LIN_ADVANCE   //witje ender temp disabled
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
   #define LIN_ADVANCE_K 0.0    // Unit: mm compression per 1mm/s extruder speed    //witje ender
