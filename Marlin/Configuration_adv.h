@@ -1614,12 +1614,12 @@
  * Override if the automatically selected points are inadequate.
  */
 #if EITHER(AUTO_BED_LEVELING_3POINT, AUTO_BED_LEVELING_UBL)
-  #define PROBE_PT_1_X 20     //witje
-  #define PROBE_PT_1_Y 200     //witje
-  #define PROBE_PT_2_X 20  //witje
-  #define PROBE_PT_2_Y 20   //witje
-  #define PROBE_PT_3_X 117  //witje
-  #define PROBE_PT_3_Y 200   //witje
+  //#define PROBE_PT_1_X 20     //witje
+  //#define PROBE_PT_1_Y 200     //witje
+  //#define PROBE_PT_2_X 20  //witje
+  //#define PROBE_PT_2_Y 20   //witje
+  //#define PROBE_PT_3_X 117  //witje
+  //#define PROBE_PT_3_Y 200   //witje
 #endif
 
 /**
@@ -2454,9 +2454,9 @@
   #define HYBRID_THRESHOLD    //witje ender
 
   #define X_HYBRID_THRESHOLD     125  // [mm/s]  //witje was 100
-  #define X2_HYBRID_THRESHOLD    100
+  #define X2_HYBRID_THRESHOLD    125
   #define Y_HYBRID_THRESHOLD     125  // witje was 100
-  #define Y2_HYBRID_THRESHOLD    100
+  #define Y2_HYBRID_THRESHOLD    125
   #define Z_HYBRID_THRESHOLD       3
   #define Z2_HYBRID_THRESHOLD      3
   #define Z3_HYBRID_THRESHOLD      3
