@@ -2245,7 +2245,7 @@
   #endif
 
   #if AXIS_IS_TMC(Z)
-    #define Z_CURRENT       580   //witje ender
+    #define Z_CURRENT       680   //witje ender
     #define Z_CURRENT_HOME  Z_CURRENT
     #define Z_MICROSTEPS     16
     #define Z_RSENSE          0.11
@@ -2453,11 +2453,11 @@
    */
   #define HYBRID_THRESHOLD    //witje ender
 
-  #define X_HYBRID_THRESHOLD     125  // [mm/s]  //witje was 100
+  #define X_HYBRID_THRESHOLD     150  // [mm/s]  //witje was 100
   #define X2_HYBRID_THRESHOLD    125
-  #define Y_HYBRID_THRESHOLD     125  // witje was 100
+  #define Y_HYBRID_THRESHOLD     150  // witje was 100
   #define Y2_HYBRID_THRESHOLD    125
-  #define Z_HYBRID_THRESHOLD       3
+  #define Z_HYBRID_THRESHOLD       5 // witje was 3
   #define Z2_HYBRID_THRESHOLD      3
   #define Z3_HYBRID_THRESHOLD      3
   #define Z4_HYBRID_THRESHOLD      3
