@@ -2504,9 +2504,9 @@
    */
   #define HYBRID_THRESHOLD    //witje ender
 
-  #define X_HYBRID_THRESHOLD     150  // [mm/s]  //witje was 100
+  #define X_HYBRID_THRESHOLD     161  // [mm/s]  //witje was 100
   #define X2_HYBRID_THRESHOLD    125
-  #define Y_HYBRID_THRESHOLD     150  // witje was 100
+  #define Y_HYBRID_THRESHOLD     161  // witje was 100
   #define Y2_HYBRID_THRESHOLD    125
   #define Z_HYBRID_THRESHOLD       5 // witje was 3
   #define Z2_HYBRID_THRESHOLD      3
